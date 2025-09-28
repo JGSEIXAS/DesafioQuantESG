@@ -1,7 +1,0 @@
-# Ignora os checkpoints temporários do Jupyter
-.ipynb_checkpoints/
-
-# Ignora os outputs, metadata e execução de células nos notebooks
-# Isso reduz conflitos, mas exige que o colega rode as células de novo ao receber o arquivo.
-*.ipynb
-!notebooks/*.ipynb  # Seus notebooks vão para a pasta 'notebooks'
